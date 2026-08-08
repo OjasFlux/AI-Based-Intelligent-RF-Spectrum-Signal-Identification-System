@@ -96,10 +96,10 @@ AI-Based-Intelligent-RF-Spectrum-Signal-Identification-System/
 
 ##  Team Members
 
-*  Member 1 — Dataset & Preprocessing
-*  Member 2 — Feature Engineering
-*  Member 3 — CNN Model Development
-*  Member 4 — Testing, Evaluation & GitHub Management
+*  [@SINDHU](https://github.com/sindhuuujiddi-png) — Dataset & Preprocessing
+*  [@RAMYA](https://github.com/shaivaramya437-ui) — Feature Engineering
+*  [@YOGESH](https://github.com/Yogesh077X) — CNN Model Development
+*  [@SUJAN](https://github.com/OjasFlux) — Testing, Evaluation & GitHub Management
 
 ---
 
