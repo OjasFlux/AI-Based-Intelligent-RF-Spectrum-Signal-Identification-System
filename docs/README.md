@@ -1,101 +1,112 @@
 # Project Documentation
 
-This folder contains the main documentation for the AI-Based Intelligent RF Spectrum Signal Identification System.
+Documentation for the **AI Based Intelligent RF Spectrum Signal Identification System**.
 
-## Documentation
+## Documentation Index
+
+### Project
+
+- [Project Overview](project_overview.md)  
+  Introduction, objectives, and overall project description.
+
+- [Workflow](workflow.md)  
+  Overall workflow of the complete system.
+
+- [Methodology](methodology.md)  
+  Main methodology used for RF signal identification.
+
+- [Progress](progress.md)  
+  Development progress and completed project stages.
+
+- [Team Responsibilities](team_responsibilities.md)  
+  Responsibilities and contribution areas of the project team.
+
+---
+
+### Dataset & Preprocessing
+
+- [Dataset Information](dataset_information.md)  
+  RadioML dataset information and characteristics.
+
+- [Preprocessing](preprocessing.md)  
+  IQ signal preprocessing and dataset preparation.
+
+- [Feature Extraction](feature_extraction.md)  
+  Signal processing and feature extraction methods.
+
+---
+
+### AI Model
+
+- [Model Architecture](model_architecture.md)  
+  CNN and improved CNN architecture.
+
+- [Training](training.md)  
+  Model training process and training results.
+
+- [Evaluation](evaluation.md)  
+  Model performance evaluation and SNR analysis.
+
+- [Prediction](prediction.md)  
+  Modulation prediction and inference process.
+
+---
+
+### System Architecture
+
+- [Software Architecture](software_architecture.md)  
+  Software components and their relationships.
+
+- [System Architecture](system_architecture.md)  
+  Complete system-level architecture.
+
+- [Hardware Integration](hardware_integration.md)  
+  Planned SDR hardware integration.
+
+---
+
+## Project Flow
 
 ```text
-docs/
-├── README.md
-├── project_architecture.md
-├── methodology.md
-├── results.md
-└── future_work.md
-```
-
-## Documentation Flow
-
-```text
-Project Architecture
-        ↓
-Methodology
-        ↓
-Implementation
-        ↓
-Results
-        ↓
-Future Work
-```
-
-## Project Architecture
-
-Explains the overall structure of the project and how the different modules work together.
-
-```text
-Data
- ↓
-Preprocessing
- ↓
-Features
- ↓
-CNN Model
- ↓
-Training
- ↓
-Saved Model
- ↓
-Evaluation
- ↓
-Testing
- ↓
-Visualization
-```
-
-## Methodology
-
-Describes the main processing and machine-learning workflow used for RF signal identification.
-
-```text
-RF/IQ Signal
-     ↓
+RadioML Dataset
+       ↓
+Dataset Analysis
+       ↓
 Data Preprocessing
-     ↓
-Signal Representation
-     ↓
-CNN Classification
-     ↓
+       ↓
+Feature Extraction
+       ↓
+CNN Model
+       ↓
+Model Training
+       ↓
+Model Evaluation
+       ↓
+Signal Prediction
+       ↓
+Signal Visualization
+       ↓
+Final RF Identification System
+```
+
+## Future Hardware Flow
+
+```text
+RTL-SDR / SDR Hardware
+          ↓
+     RF Signal
+          ↓
+      IQ Samples
+          ↓
+    Preprocessing
+          ↓
+     CNN Model
+          ↓
 Modulation Prediction
+          ↓
+Confidence + Visualization
 ```
 
-## Results
+## Documentation Purpose
 
-Contains the important experimental results and performance analysis of the trained model.
-
-The results include:
-
-```text
-Accuracy
-Classification Report
-Confusion Matrix
-SNR Performance
-```
-
-## Future Work
-
-Describes the planned extensions of the system, including integration with real SDR hardware and live RF signal acquisition.
-
-```text
-SDR Hardware
-     ↓
-Live IQ Signal
-     ↓
-Signal Processing
-     ↓
-CNN
-     ↓
-Live Modulation Identification
-```
-
-## Purpose
-
-The documentation provides a clear reference for understanding, presenting, maintaining, and extending the project.
+These documents provide the technical reference for understanding the dataset, preprocessing, feature extraction, CNN model, training, evaluation, prediction, system architecture, and planned hardware integration.
