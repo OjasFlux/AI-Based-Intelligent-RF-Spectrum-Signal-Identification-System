@@ -1,0 +1,27 @@
+Improved CNN Classification Accuracy vs SNR
+============================================================
+
+SNR -20 dB: 10.45%
+SNR -18 dB: 10.21%
+SNR -16 dB: 10.45%
+SNR -14 dB: 14.10%
+SNR -12 dB: 16.06%
+SNR -10 dB: 23.47%
+SNR -8 dB: 35.96%
+SNR -6 dB: 52.74%
+SNR -4 dB: 69.39%
+SNR -2 dB: 79.95%
+SNR 0 dB: 88.80%
+SNR 2 dB: 91.91%
+SNR 4 dB: 91.80%
+SNR 6 dB: 92.13%
+SNR 8 dB: 92.51%
+SNR 10 dB: 92.90%
+SNR 12 dB: 93.01%
+SNR 14 dB: 92.33%
+SNR 16 dB: 92.96%
+SNR 18 dB: 92.49%
+
+Overall Accuracy: 62.29%
+High SNR Accuracy (>= 0 dB): 92.08%
+Low SNR Accuracy (< 0 dB): 32.39%

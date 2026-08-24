@@ -1,0 +1,13 @@
+AI Based Intelligent RF Spectrum Signal Identification System
+Improved CNN Evaluation Summary
+============================================================
+
+Overall Test Accuracy: 62.29%
+Test Loss: 1.0846
+High SNR Accuracy (>= 0 dB): 92.08%
+Low SNR Accuracy (< 0 dB): 32.39%
+Average Confidence: 66.66%
+Correct Predictions: 27408
+Incorrect Predictions: 16592
+Best SNR: 12 dB
+Worst SNR: -18 dB
