@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# TensorFlow / Keras temporary files
+*.ckpt
+checkpoint
+logs/
+tensorboard/
+
+# Large original dataset
+data/dataset/*
+!data/dataset/README.md
+
+# Generated processed data
+data/processed/*
+
+# Generated visualization results
+visualization/results/*
