@@ -1,0 +1,11 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+tensorflow
+keras
+jupyter
+notebook
+streamlit
+pandas
+h5py
